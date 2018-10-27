@@ -1,6 +1,9 @@
 # Projeto PetCodes - Wiki
 
-Documentação do projeto gerenciador de animais achados, perdidos e para adoção.
+Esta é uma wiki para a plataforma [Petcodes](link quebrado do heroku). O objetivo da plataforma é a troca de informações sobre animais encontrados e perdidos, para agilizar o reencontro entre o pets e seus donos, bem como para o compartilhamento de informações sobre animais para adoção.
+
+## Utilização
+TO DO...
 
 ## Autores
 
