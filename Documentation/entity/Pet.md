@@ -3,7 +3,7 @@ Entidade de pet que estende `AuditableEntity`. Define a estruturação dos objet
 
 ## Anotações
 * [`@Data`](https://projectlombok.org/features/Data): geração automática de getters, setters e construtores;
-* [`@EqualsAdnHashCode`](https://projectlombok.org/features/EqualsAndHashCode): implementa os métodos `equals` e `hashcode` para a classe;
+* [`@EqualsAndHashCode`](https://projectlombok.org/features/EqualsAndHashCode): implementa os métodos `equals` e `hashcode` para a classe;
 * [`@AllArgsConstructor`](https://projectlombok.org/features/constructor): cria construtor com todos os campos;
 * [`@NoArgsConstructor`](https://projectlombok.org/features/constructor): cria construtor vazio;
 * [`@Builder`](https://projectlombok.org/features/Builder): cria um método `build()`, que permite acesso a uma classe `PetBuilder`. Essa classe possui um método para cada atributo, que faz a atribuição e retorna o próprio `PetBuilder`. Possui também um método `build()`, que retorna a entidade original construída;

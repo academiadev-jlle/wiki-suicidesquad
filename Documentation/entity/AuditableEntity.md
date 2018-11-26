@@ -4,7 +4,7 @@ Entidade auditável que estende `BaseEntity`. Contém datas de criação e atual
 ## Anotações
 * [`@MappedSuperclass`](https://javaee.github.io/javaee-spec/javadocs/javax/persistence/MappedSuperclass.html): define os mapeamentos existentes na classe como aplicáveis apenas às classes que herdam seus atributos;
 * [`@Data`](https://projectlombok.org/features/Data): geração automática de getters, setters e construtores.
-* [`@EqualsAdnHashCode`](https://projectlombok.org/features/EqualsAndHashCode): implementa os métodos `equals` e `hashcode` para a classe.
+* [`@EqualsAndHashCode`](https://projectlombok.org/features/EqualsAndHashCode): implementa os métodos `equals` e `hashcode` para a classe.
 * [`@EntityListeners`](https://javaee.github.io/javaee-spec/javadocs/javax/persistence/EntityListeners.html): especifica a classe a ser chamada quando objetos desta classe forem alterados.
 
 ## Atributos
